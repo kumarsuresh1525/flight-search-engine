@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+
+.header {
+  background-color: $indigo;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  overflow: hidden;
+
+  h1 {
+    color: $white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date-Picker test cases renders date-picker correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      class="date-picker"
+      type="date"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page test cases renders Home correctly when list is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="main-content"
+  >
+    <div
+      class="result-container"
+    >
+      <div
+        class="default-message"
+      >
+        <p>
+          Sorry no result Found!
+        </p>
+        <p>
+          Please refine your search
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Home Page test cases renders Home correctly with flights details 1`] = `
+<DocumentFragment>
+  <div
+    class="main-content"
+  >
+    <div
+      class="result-container"
+    />
+    <div
+      class="flights"
+    >
+      <div
+        class="journey"
+      >
+        <span>
+          src &gt; dest 
+        </span>
+        <div>
+          <div>
+            Start Date: 
+          </div>
+        </div>
+      </div>
+      <div
+        class="flight"
+      >
+        <div
+          class="details"
+        >
+          <div
+            class="flight-price"
+          >
+            Rs. 2500.00
+          </div>
+          <div
+            class="more-info"
+          >
+            <div>
+              <div>
+                EM-P-D-201
+              </div>
+              <div>
+                PNQ &gt; DEL
+              </div>
+              <div>
+                Depart: 08:00 AM
+              </div>
+              <div>
+                Arrive: 10:30 AM
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="book"
+        >
+          <img
+            alt="flight icon"
+            src="imgUrl"
+          />
+          <button
+            class="btn btn-primary"
+          >
+            Book
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
